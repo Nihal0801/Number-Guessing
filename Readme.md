@@ -1,18 +1,50 @@
-# 🎯 Number Guessing Game
+# 🎯 Advanced Number Guessing Game (Python)
 
-This is a simple Python project where the program randomly selects a number between a given range, and the user tries to guess it.  
-After each guess, the program provides feedback — whether the guess is higher or lower than the actual number — until the user guesses correctly.
+A fun and interactive command-line game built in Python where the user guesses a randomly generated number within a chosen difficulty level.  
+The game includes score tracking, input validation, and replay functionality — making it a complete beginner-to-intermediate Python project.
 
-## 🧩 Features
-- Random number generation using Python’s `randint()` function  
-- Input validation with `try-except`  
-- Infinite guessing loop until correct answer  
-- Beginner-friendly logic with clean syntax and f-strings
+---
 
-## 🛠️ Tech Used
-- Python 3.x
+## 🧠 Features
+
+- 🎮 **Multiple Difficulty Levels:** Easy / Medium / Hard  
+- 🔢 **Random Number Generation:** Uses Python’s `randint()`  
+- 🧩 **Input Validation:** Handles invalid or out-of-range input safely  
+- 🏆 **Score System:** Higher points for faster guesses  
+- 🔁 **Replay Option:** Play multiple rounds without restarting  
+- 💻 **Clean, Modular Code:** Beginner-friendly, fully commented  
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3.x  
+- Built-in modules: `random`, `time`
+
+---
+
+## ⚙️ How It Works
+
+1. The program welcomes you and asks for a difficulty level:  
+   - Easy → (1–10) with 5 attempts  
+   - Medium → (1–50) with 7 attempts  
+   - Hard → (1–100) with 10 attempts  
+2. A random number is generated in that range.  
+3. You guess numbers until you find the correct one or run out of attempts.  
+4. The fewer attempts you take, the higher your score!  
+5. After each round, you can choose to play again or exit.  
+
+---
 
 ## ▶️ How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YourUsername/NumberGuessingGame.git
+
+### 🧩 Option 1 — Run Locally
+```bash
+# Clone this repository
+git clone https://github.com/Nihal0801/Number-Guessing.git
+
+# Navigate to the folder
+cd Number-Guessing
+
+# Run the game
+python NumberGuessing.py
